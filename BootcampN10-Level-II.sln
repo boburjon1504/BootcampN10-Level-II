@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "N36", "N36", "{4CFFD4FC-82D4-4ABB-B98A-3094511159B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task", "Task", "{79B70270-7BC8-4571-81F9-6592F5E3E46F}"
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{79B70270-7BC8-4571-81F9-6592F5E3E46F} = {4CFFD4FC-82D4-4ABB-B98A-3094511159B5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {962E8450-099F-4A84-92CE-177EAE6E84C2}
+	EndGlobalSection
+EndGlobal
