@@ -7,12 +7,25 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "N36", "N36", "{4CFFD4FC-82D
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task", "Task", "{79B70270-7BC8-4571-81F9-6592F5E3E46F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N36-Task1", "N36-Task1\N36-Task1.csproj", "{C2025824-7705-4DD4-9EDB-F38A7CD8132E}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2025824-7705-4DD4-9EDB-F38A7CD8132E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2025824-7705-4DD4-9EDB-F38A7CD8132E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2025824-7705-4DD4-9EDB-F38A7CD8132E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2025824-7705-4DD4-9EDB-F38A7CD8132E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{79B70270-7BC8-4571-81F9-6592F5E3E46F} = {4CFFD4FC-82D4-4ABB-B98A-3094511159B5}
+		{C2025824-7705-4DD4-9EDB-F38A7CD8132E} = {79B70270-7BC8-4571-81F9-6592F5E3E46F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {962E8450-099F-4A84-92CE-177EAE6E84C2}
