@@ -1,2 +1,2 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿public abstract record Person(string FirstName,string LastName);
+public record Strudent(string FirstName,string LastName) : Person(FirstName,LastName);
