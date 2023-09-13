@@ -16,6 +16,7 @@ namespace N37_HT_1.Services
         {
             var newUser = new User(firstName, lastName, status, emailAddress);
             _users.Add(newUser);
+            newUser.IsRegistered = true;
             return newUser;
         }
         public User Delete(int id)
