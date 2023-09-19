@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
+namespace N39_HT_2.Service;
 
-namespace N39_HT_2.Service
+public class EmailSenderService
 {
-    internal class EmailSenderService
+    public bool SendEmail(string emailAddress)
     {
+        return true;
     }
 }
