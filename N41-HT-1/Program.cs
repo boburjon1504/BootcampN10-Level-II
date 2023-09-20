@@ -1,6 +1,5 @@
 ﻿
 using N41_HT_1;
-
 var queue = new SafeQueue<int>();
 try
 {
@@ -12,7 +11,7 @@ try
         //new(()=>queue.Enquee(10)),
         new(()=>queue.Enquee(10)),
     };
-
+    
     Parallel.ForEach(tasks, task => task.Start());
     await Task.WhenAll(tasks);
     queue.ForEach(Console.WriteLine);
