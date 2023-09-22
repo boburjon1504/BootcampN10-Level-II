@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace N43_HT_1.Services
 {
-    internal class AccountService
+    public class AccountService
     {
+        private readonly UserService _userService;
+        public AccountService(UserService userService)=>_userService = userService;
+        public async void CreateReportAsync(Guid id)
+        {
+            var employeeService = new EmployeeService(_userService);
+            var performanceService = new PerformanceService(employeeService);
+            performanceService.ReportPerformanceAsync(id);
+        }
     }
 }
