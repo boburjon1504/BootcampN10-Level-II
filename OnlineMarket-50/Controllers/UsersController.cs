@@ -22,20 +22,11 @@ namespace OnlineMarket_50.Controllers
         {
             return _userService.GetAll();
         }
-        [HttpGet]
-        public IActionResult Get()
+        [HttpGet("{id}")]
+        public async ValueTask<IActionResult> Get(Guid id)
         {
-            var users = _userService.GetAll();
-            var orders = _orderService.GetAll();
-
-            var query = users.Join(orders,
-                user => user.Id,
-                order => order.UserId, (users, orders) => new
-                {
-                    Userr = users,
-                    Orders = orders
-                });
-            return Ok(query);
+            var user = _userService.GetById(id);
+            return Ok(user);
         }
     }
 }
