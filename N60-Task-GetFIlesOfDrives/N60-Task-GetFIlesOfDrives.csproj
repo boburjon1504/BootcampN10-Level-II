@@ -5,6 +5,7 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>N60_Task_GetFIlesOfDrives</RootNamespace>
+    <UserSecretsId>11fd2dbc-7a28-4bc0-8ba0-7caf69e5ea9e</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>

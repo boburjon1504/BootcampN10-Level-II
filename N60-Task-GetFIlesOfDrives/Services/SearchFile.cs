@@ -7,7 +7,8 @@ public class SearchFile
         var directories = Directory.GetDirectories(path,"*",SearchOption.TopDirectoryOnly);
         for(var i=0;i<directories.Length;i++)
         {
-            if (!directories[i].Equals("D:\\System Volume Information"))
+            if (!directories[i].Equals("D:\\System Volume Information") ||
+                !directories[i].Equals("'C:\\Documents and Settings"))
             {
                 var fileNamee = SearchFilee(directories[i], fileName);
                 if (fileNamee is not null)

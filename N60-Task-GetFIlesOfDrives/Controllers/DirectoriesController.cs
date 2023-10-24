@@ -15,7 +15,7 @@ namespace N60_Task_GetFIlesOfDrives.Controllers
         [HttpGet("driva/{fileName}")]
         public IActionResult Get([FromRoute] string fileName)
         {
-            return Ok(_searchFile.Search(@"D:\", fileName));
+            return Ok(_searchFile.Search(@"C:\", fileName));
         }
     }
 }
