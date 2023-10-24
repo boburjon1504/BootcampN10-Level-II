@@ -1,6 +1,7 @@
-﻿namespace N53_HT_1.Models
+﻿namespace N53_HT_1.Models;
+
+public class Bonus
 {
-    public class Bonus
-    {
-    }
+    public Guid Id { get; set; }
+    public double Amount { get; set; }
 }
