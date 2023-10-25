@@ -36,7 +36,7 @@ var cleanUpService = new CleanUpService(directory);
 directory.CreateDirectories();
 file.CreateUserProfileJson();
 
-cleanUpService.CLean();
+//cleanUpService.CLean();
 
 
 
