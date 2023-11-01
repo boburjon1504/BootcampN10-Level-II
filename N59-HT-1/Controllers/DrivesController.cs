@@ -17,7 +17,6 @@ namespace N59_HT_1.Controllers
                 Format = dr.DriveFormat,
                 TotalSize = dr.TotalSize,
                 TotalFreeSpace = dr.TotalFreeSpace,
-
             }));
 
         }

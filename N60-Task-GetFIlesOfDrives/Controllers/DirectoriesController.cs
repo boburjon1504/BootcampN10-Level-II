@@ -12,10 +12,10 @@ namespace N60_Task_GetFIlesOfDrives.Controllers
         public DirectoriesController(SearchFile searchFile) => 
             _searchFile = searchFile;
         
-        [HttpGet("driva/{fileName}")]
-        public IActionResult Get([FromRoute] string fileName)
+        [HttpPost]
+        public IActionResult Get([FromForm]Image fileName)
         {
-            return Ok(_searchFile.Search(@"C:\Users\User\AppData\Roaming", fileName));
+            return Ok(_searchFile.Search(@"C:\Users\User\AppData\Roaming", ""));
         }
     }
 }
